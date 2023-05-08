@@ -20,7 +20,7 @@
                   
                     <div class="form-group">
                      
-                     @if(($data->status=='1') && ($data->employee_id == auth()->guard('employee')->user()->employee_id))
+                    @if(($data->status=='1'))
                     <p>HR is approved your leave request</strong>
                     @else
                     <strong>HR is  not approved your leave request</strong>
